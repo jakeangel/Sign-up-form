@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+}
+
+.sidebar-image{
+    background: url(../images/sidebar_image.jpg);
+    height: 100vh;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    justify-content:space-between;
+    
+}
+
+.logo{
+    width:70px;
+}
+
+.odin-title{
+    background-color:black;
+    opacity: 0.7;
+    margin-top:150px;
+    display:flex;
+    font-size:30px;
+    justify-content:center;
+    align-items:center;
+    padding:10px 0;
+
+}
