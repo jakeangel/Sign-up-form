@@ -34,3 +34,19 @@ body{
     padding:10px 0;
 
 }
+
+.inputs-container{
+    display:flex;
+    flex-wrap:wrap;
+    width:50%;
+    justify-content:space-around;
+}
+
+.inputs{
+    margin-bottom:10px;
+}
+
+label{
+    display:block;
+  
+}
