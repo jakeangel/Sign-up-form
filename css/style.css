@@ -6,6 +6,7 @@
 
 body{
     display:flex;
+     background-color:rgb(246, 246, 246);
 }
 
 .sidebar-image{
@@ -16,6 +17,7 @@ body{
     flex-direction:column;
     color:white;
     justify-content:space-between;
+    text-align:center;
     
 }
 
@@ -35,6 +37,19 @@ body{
 
 }
 
+.header-content{
+    padding:100px 0px 30px 30px;
+    font-weight: bold;
+    font-size:1.3rem;
+    
+}
+
+.header-content>p{
+    width:550px;
+    margin-bottom:15px;
+
+}
+
 .inputs-container{
     display:flex;
     flex-wrap:wrap;
@@ -49,4 +64,34 @@ body{
 label{
     display:block;
   
+}
+
+form{
+    padding: 20px 0px;
+    background-color:white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+   
+}
+
+form p{
+    font-size:1.3rem;
+    margin-left:40px;
+    margin-bottom:20px;
+}
+
+.log-in{
+    padding-left:20px;
+}
+
+.log-in a{
+    color:#596D48;
+    
+}
+
+button{
+    background-color:#596D48;
+    margin: 30px 0 20px 0;
+    padding:10px 30px;
+    border-radius:5px;
+    color:white;
 }
