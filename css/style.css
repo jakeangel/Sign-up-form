@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Anak Bijak';
+    src: url('../font/anak_fontface/AnakBijak.woff2') format('woff2'),
+        url('../font/anak_fontface/AnakBijak.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 *{
     margin:0;
     padding:0;
@@ -21,6 +32,10 @@ body{
     
 }
 
+.sidebar-image p{
+    color:black;
+}
+
 .logo{
     width:70px;
 }
@@ -34,6 +49,7 @@ body{
     justify-content:center;
     align-items:center;
     padding:10px 0;
+    font-family: 'Anak Bijak';
 
 }
 
@@ -61,6 +77,15 @@ body{
     margin-bottom:10px;
 }
 
+input{
+    border-radius:4px;
+}
+
+input[type='password']:user-invalid{
+    border-color:red;
+
+}
+
 label{
     display:block;
   
@@ -80,7 +105,7 @@ form p{
 }
 
 .log-in{
-    padding-left:20px;
+    padding-left:30px;
 }
 
 .log-in a{

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Anak Bijak';
+    src: url('AnakBijak.woff2') format('woff2'),
+        url('AnakBijak.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
